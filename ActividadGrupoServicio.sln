@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClienteConsola", "ActividadGrupoServicio\ClienteConsola.csproj", "{9CA6C1AD-9DA5-41B1-A9CB-A5343A5E5226}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "API\API.csproj", "{6E9029CC-1A88-4CF0-B241-7F277E9851BD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9CA6C1AD-9DA5-41B1-A9CB-A5343A5E5226}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CA6C1AD-9DA5-41B1-A9CB-A5343A5E5226}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CA6C1AD-9DA5-41B1-A9CB-A5343A5E5226}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CA6C1AD-9DA5-41B1-A9CB-A5343A5E5226}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E9029CC-1A88-4CF0-B241-7F277E9851BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E9029CC-1A88-4CF0-B241-7F277E9851BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E9029CC-1A88-4CF0-B241-7F277E9851BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E9029CC-1A88-4CF0-B241-7F277E9851BD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CDE2EC2D-3877-4F4D-90B6-E82E7C22E83D}
+	EndGlobalSection
+EndGlobal
