@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jarivera\\source\\repos\\ActividadGrupoServicio\\API\\API.csproj": {}
+    "C:\\Users\\jarivera\\source\\repos\\ActividadGrupoPredicacion\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jarivera\\source\\repos\\ActividadGrupoServicio\\API\\API.csproj": {
+    "C:\\Users\\jarivera\\source\\repos\\ActividadGrupoPredicacion\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jarivera\\source\\repos\\ActividadGrupoServicio\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\jarivera\\source\\repos\\ActividadGrupoPredicacion\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\jarivera\\source\\repos\\ActividadGrupoServicio\\API\\API.csproj",
+        "projectPath": "C:\\Users\\jarivera\\source\\repos\\ActividadGrupoPredicacion\\API\\API.csproj",
         "packagesPath": "C:\\Users\\jarivera\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jarivera\\source\\repos\\ActividadGrupoServicio\\API\\obj\\",
+        "outputPath": "C:\\Users\\jarivera\\source\\repos\\ActividadGrupoPredicacion\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jarivera\\AppData\\Roaming\\NuGet\\NuGet.Config",

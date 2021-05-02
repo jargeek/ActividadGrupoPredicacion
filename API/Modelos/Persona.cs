@@ -16,7 +16,7 @@ namespace API.Modelos
 
         public DateTime FechaBautismo { get; set; }
 
-        public int Telefono { get; set; }
+        public string Telefono { get; set; }
 
         public string Direccion { get; set; }
     }
