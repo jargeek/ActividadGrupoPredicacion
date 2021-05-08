@@ -1,4 +1,5 @@
-﻿using API.Modelos;
+﻿using API;
+using API.Modelos;
 using System;
 using System.Collections.Generic;
 
@@ -10,21 +11,33 @@ namespace ActividadGrupoServicio
         {
             Console.WriteLine("Hello World!");
 
-            //var publicador = new Publicador
-            //{
-            //    Nombres = "Jonathan Alberto",
-            //    Apellidos = "Rivera Gómez",
-            //    FechaNacimiento = new DateTime(1981, 6, 10),
-            //    Bautizado = true,
-            //    FechaBautismo = new DateTime(1996, 23, 11),
-            //    Ungido = false,
-            //    Direccion = "Av Jardin 10, Fracc. El Tejocote, Texcoco, Estado de México",
-            //    Telefono = "5516047487"
-            //};
+            var manager = new PublicadorManager();
 
-            //var manager = new PublicadorManager();
+            manager.CrearPublicador(new Publicador
+            {
+                Nombres = "Miriam",
+                Apellidos = "Cruz",
+                FechaNacimiento = new DateTime(1996, 03, 15),
+                Bautizado = true,
+                FechaBautismo = new DateTime(2005, 10, 08),
+                Ungido = false,
+                Direccion = "Av Jardin 10, Fracc. El Tejocote, Texcoco, Estado de México",
+                Telefono = "5545307128"
+            });
 
-            //manager.CrearPublicador(publicador);
+            manager.CrearPublicador(new Publicador
+            {
+                Nombres = "Guersom",
+                Apellidos = "González",
+                FechaNacimiento = new DateTime(1996, 02, 07),
+                Bautizado = true,
+                FechaBautismo = new DateTime(2001, 08, 11),
+                Ungido = false,
+                Direccion = "Av Jardin 10, Fracc. El Tejocote, Texcoco, Estado de México",
+                Telefono = "5545307128"
+            });
+
+
             //manager.Publicador(id);
             //manager.ActualizarPublicador(publicador);
             //manager.BorrarPublicador(publicador);
